@@ -1,4 +1,4 @@
-﻿/* ════════════════════════════════════
+/* ════════════════════════════════════
    CSS CUSTOM PROPERTIES
 ════════════════════════════════════ */
 :root {
@@ -1114,19 +1114,26 @@ footer {
   transition: transform 0.2s var(--ease), box-shadow 0.2s var(--ease), background 0.25s;
 }
 
-/* Amazon button — dark with pink hover */
+
+/* Amazon button — orange (highest CTR in India) */
+
 .product-box .buy-btn:not(.flipkart) {
-  background: var(--dark);
-  color: var(--white);
-  border: 2px solid var(--dark);
-  box-shadow: 3px 3px 0 rgba(214,51,108,0.3);
+  background: #FF9900;
+  color: #111111;
+  border: 2px solid #FF9900;
+  box-shadow: 3px 3px 0 rgba(255,153,0,0.35);
+  font-weight: 800;
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding: 13px 28px;
 }
 
 .product-box .buy-btn:not(.flipkart):hover {
-  background: var(--pink);
-  border-color: var(--pink);
+  background: #e68a00;
+  border-color: #e68a00;
   transform: translateY(-2px);
-  box-shadow: 4px 4px 0 rgba(214,51,108,0.5);
+  box-shadow: 4px 4px 0 rgba(255,153,0,0.55);
 }
 
 /* Flipkart button — yellow brand colour */
